@@ -1,7 +1,3 @@
-# IDS 572 - Assignment 2
-# Charu Yadav (653762591)
-# Deepak Singhal (672190946)
-
 
 
 #download old and training dataset file from https://archive.ics.uci.edu/ml/datasets/Phishing+Websites and convert them 
@@ -21,8 +17,8 @@ library(randomForest)
 library(ggplot2)
 library(caret)
 
-new = read.csv("C:/Users/n/Documents/UIC/Fall Sem/572/Training_Dataset.csv")
-old = read.csv("C:/Users/n/Documents/UIC/Fall Sem/572/csv_result.csv")
+new = read.csv("~/Training_Dataset.csv")
+old = read.csv("~/csv_result.csv")
 # removing id (irrelevant parameter) 
 new <- new[-1] 
 old <- old[-1] 
